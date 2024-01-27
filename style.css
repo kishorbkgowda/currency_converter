@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 224, 178);
+}
+.container 
+{   
+    min-width:450px;  
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 25px;
+    padding: 20px 10px;
+}
+.heading 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.middlefirst 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.middlefirst label
+{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+    font-size: 1.1rem;
+    width: fit-content;
+}
+
+.middlefirst input
+{
+    width: 90%;
+    font-size: 1.02rem;
+    padding:10px 7px;
+    align-self: center;
+    border-radius: 10px;
+    border:1.5px solid;
+}
+
+.middle
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.middlesecond,.middlethird
+{
+    border: 1.5px solid;
+    border-radius: 10px;
+    padding: 5px 18px;
+}
+.middlesecond
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middlethird
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middlesecond,.middlethird
+{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 5px; */
+
+}
+
+.last
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.last div
+{
+    align-self: flex-start;
+    padding: 5px;
+}
+
+p
+{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+    font-size: 1.1rem;
+}
+    
+
+.last button
+{
+    padding: 15px 8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-size: 0.9rem;
+    font-weight: bold; 
+    background-color: rgb(171, 71, 188);
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease ;
+    color: white;
+    
+    
+}
+
+.last button:active
+{
+    box-shadow: 0px 0px white,0px 0px white;
+    scale: 0.9;
+
+}
